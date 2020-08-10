@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-how2j.iml" filepath="$PROJECT_DIR$/cloud-how2j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-entity/common-entity.iml" filepath="$PROJECT_DIR$/common-entity/common-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-data-service/product-data-service.iml" filepath="$PROJECT_DIR$/product-data-service/product-data-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-data-service2/product-data-service (1).iml" filepath="$PROJECT_DIR$/product-data-service2/product-data-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" filepath="$PROJECT_DIR$/product-view-service-feign/product-view-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" filepath="$PROJECT_DIR$/product-view-service-ribbon/product-view-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-rabbitmq/springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>

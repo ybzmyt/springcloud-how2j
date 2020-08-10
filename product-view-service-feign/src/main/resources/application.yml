@@ -1,0 +1,44 @@
+server:
+  port: 8012
+spring:
+  application:
+    name:  product-view-service-feign
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: text/html
+    mode: HTML5
+  zipkin:
+    base-url: http://localhost:9411
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#spring:
+#  application:
+#    name: product-view-service-feign
+#  thymeleaf:
+#    cache: false
+#    prefix: classpath:/templates/
+#    suffix: .html
+#    encoding: UTF-8
+#    content-type: text/html
+#    mode: HTML5
+#  zipkin:
+#    base-url: http://localhost:9411
+
+# \u6D88\u606F\u603B\u7EBF
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+# \u65AD\u8DEF\u5668
+feign:
+  hystrix:
+    enabled: true

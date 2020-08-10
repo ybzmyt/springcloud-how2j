@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-how2j" />
+        <module name="common-entity" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="hystrix-dashboard" />
+        <module name="product-data-service" />
+        <module name="product-data-service (1)" />
+        <module name="product-view-service-feign" />
+        <module name="product-view-service-ribbon" />
+        <module name="springboot-rabbitmq" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="cloud-how2j" target="1.7" />
+      <module name="common-entity" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="product-data-service" target="1.8" />
+      <module name="product-data-service (1)" target="1.8" />
+      <module name="product-view-service-feign" target="1.8" />
+      <module name="product-view-service-ribbon" target="1.8" />
+      <module name="springboot-rabbitmq" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
